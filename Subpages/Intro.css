@@ -432,6 +432,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10%;
   }
 
   .content1 .img {
@@ -443,22 +444,28 @@ h2 {
   .c-text1 {
     display: flex;
     flex-direction: column;
+    padding: 10%;
   }
 
   .c-text2 {
     display: flex;
     flex-direction: column;
+    padding: 10%;
   }
 
   .c-text2 .text {
     margin: 0;
     padding: 5% 0;
   }
+
+  .c2-text3 {
+    padding: 10%;
+  }
   
   .example {
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding: 5% 10%;
   }
 
   .ginger-img {
