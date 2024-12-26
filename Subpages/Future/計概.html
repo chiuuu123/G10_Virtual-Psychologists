@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future</title>
+  <link rel="stylesheet" type='text/css' href="計概final_future.css">
+</head>
+<body>
+  <header class="header">
+      <h1><b>Future</b></h1>
+      <div class="text-box">
+      <p id="leftText" class="left-text">
+        <span class="section-title">Current Status:</span><br>
+        VR is increasingly being utilized in psychological treatments, including exposure therapy for PTSD and phobias. Research, such as that conducted by the University of Oxford, demonstrates that VR technology can effectively reduce anxiety in patients with conditions like agoraphobia. These VR tools simulate real-life scenarios and are effective for treatment but depend on manual operation by therapists. They also lack the ability to adjust dynamically to a patient’s emotional responses in real time. AI integration in VR for psychological therapy is still in its infancy, limiting the personalization and adaptability of the experience.
+        <br><br>
+        <span class="section-title">Future Development:</span><br>
+        - <span class="highlight">Exposure Therapy:</span> VR will enable patients to gradually face their fears in safe and controlled environments. This approach has already proven effective for treating phobias and similar conditions.<br>
+        - <span class="highlight">Scenario Simulation:</span> VR will create diverse environments to support patients in practicing social skills, managing stress, and improving therapeutic outcomes.<br>
+        - <span class="highlight">Immersive Therapy:</span> Combining AI’s personalized analysis with VR’s immersive experience will result in customized treatment plans, significantly enhancing therapy effectiveness.<br>
+        - <span class="highlight">Remote Mental Health Services:</span> The integration of AI and VR will overcome geographical barriers, providing high-quality psychological health services to individuals in remote areas.
+      </p>
+    </div>
+  </header>
+  <section class="main-container">
+    <div class="future-card central">
+      <button id="prevBtn" class="nav-btn">&lt;</button>
+      <img id="futureImage" src="VR_1.png" alt="VR" class="future-img">
+      <h1 id="futureTitle" class="future-title">Virtual Reality Combined with AI for Immersive Therapy</h1>
+      <p id="futureDescription">Psychologists and counselors are exploring the integration of AI with VR technology to innovate therapeutic tools. This approach aims to overcome spatial limitations of traditional counseling and provide an immersive therapeutic experience. AI-powered VR environments allow patients to safely face sources of fear or stress in virtual settings, gradually reducing anxiety or phobia responses.</p>
+      <button id="nextBtn" class="nav-btn">&gt;</button>
+    </div>
+    <div class="background-card left">
+      <img id="leftCardImage" src="" alt="Left Image" class="card-img">
+      <h3 id="leftCardTitle"></h3>
+      <p id="leftCardDescription"></p>
+    </div>
+
+    <div class="background-card right">
+      <img id="rightCardImage" src="" alt="Right Image" class="card-img">
+      <h3 id="rightCardTitle"></h3>
+      <p id="rightCardDescription"></p>
+    </div>
+
+  </section>
+
+  <script type="text/javascript">
+    const cards = [
+  {
+    image: "VR_1.png",
+    title: "Virtual Reality Combined with AI for Immersive Therapy",
+    description: "Psychologists and counselors are exploring the integration of AI with VR technology to innovate therapeutic tools. This approach aims to overcome spatial limitations of traditional counseling and provide an immersive therapeutic experience. AI-powered VR environments allow patients to safely face sources of fear or stress in virtual settings, gradually reducing anxiety or phobia responses.",
+    leftDescription: `
+  <span class="text-highlight"><h3>Current Status:</h3></span>
+  VR is increasingly being utilized in psychological treatments, including exposure therapy for PTSD and phobias. Research demonstrates that VR technology can effectively reduce anxiety in patients with conditions like agoraphobia. These VR tools simulate real-life scenarios and are effective for treatment but depend on manual operation by therapists. They also lack the ability to adjust dynamically to a patient’s emotional responses in real time. AI integration in VR for psychological therapy is still in its infancy, limiting the personalization and adaptability of the experience.
+  <br><br>
+  <span class="text-highlight"><h3>Future Development:</h3></span>
+  <span class="sub-highlight">- Exposure Therapy:</span><br> VR will enable patients to gradually face their fears in safe and controlled environments. This approach has already proven effective for treating phobias and similar conditions.<br>
+  <span class="sub-highlight">- Scenario Simulation:</span> <br>VR will create diverse environments to support patients in practicing social skills, managing stress, and improving therapeutic outcomes.<br>
+  <span class="sub-highlight">- Immersive Therapy:</span> <br>Combining AI’s personalized analysis with VR’s immersive experience will result in customized treatment plans, significantly enhancing therapy effectiveness.<br>
+  <span class="sub-highlight">- Remote Mental Health Services:</span><br> The integration of AI and VR will overcome geographical barriers, providing high-quality psychological health services to individuals in remote areas.
+`
+
+  },
+  {
+    image: "Bilingual.png",
+    title: "Multilingual and Culturally Adaptive Counseling",
+    description: "Future AI systems aim to support multilingual capabilities and understand diverse cultural contexts. By accurately interpreting emotional expressions across different cultures, these systems can deliver psychological health services to a broader audience, enhancing accessibility and inclusivity.",
+    leftDescription: `
+  <span class="text-highlight"><h3>Current Status:</h3></span>
+  Currently, AI applications in counseling are often limited to specific languages or cultural contexts, such as chatbots or emotion analysis tools for preliminary mental health screening. These systems struggle with accurately interpreting multilingual emotional expressions or addressing cultural nuances, often leading to misunderstandings. As a result, psychological services remain inaccessible to many in multicultural or underserved areas.
+  <br><br>
+  <span class="text-highlight"><h3>Future Development:</h3></span>
+  Future AI systems will feature advanced multilingual capabilities and cultural adaptability. Through natural language processing, AI will accurately interpret subtle emotional cues across diverse languages while incorporating cross-cultural psychological insights to understand non-verbal expressions. These enhancements will make psychological services more accessible and inclusive, reaching a broader audience worldwide.`
+  },
+  {
+    image: "realtime.png",
+    title: "Real-Time Emotion Monitoring and Intervention",
+    description: "AI can analyze voice, facial expressions, and physiological indicators to monitor emotional states in real time and proactively provide psychological support or suggestions when needed, helping to prevent mental health issues from worsening.",
+    leftDescription: `
+  <span class="text-highlight"><h3>Current Status:</h3></span>
+  AI can monitor emotional states using voice, facial expressions, and physiological indicators. However, current AI interventions are limited to basic support, such as reminders to rest or relax, lacking deeper psychological intervention capabilities. Personalized and precise treatment recommendations for emotional changes are not yet widely available.
+  <br><br>
+  <span class="text-highlight"><h3>Future Development:</h3></span>
+  <span class="sub-highlight">- Proactive Intervention:</span><br> Future AI systems will provide real-time emotional support, dynamically adjusting recommendations to prevent mental health issues from worsening.<br>
+  <span class="sub-highlight">- Advanced Emotional Insights:</span> <br>AI will analyze complex emotional patterns, offering targeted psychological interventions tailored to individual needs.<br>
+  <span class="sub-highlight">- Immersive Therapy:</span> <br>Combining AI’s personalized analysis with VR’s immersive experience will result in customized treatment plans, significantly enhancing therapy effectiveness.<br>
+  <span class="sub-highlight">- Integration with Wearables:</span><br> AI-powered devices will monitor physiological indicators (e.g., heart rate) in real time to enhance emotional state detection and response.
+`
+  },
+  {
+    image: "EAI.png",
+    title: "Applications of Emotion AI (EAI)",
+    description: "EAI technology can analyze users' voices and facial expressions to determine emotional states, with applications in disease detection and healthcare. In psychological counseling, EAI is currently used for emotion recognition and basic psychological support, such as analyzing users’ emotions through voice and facial expressions. Commercial products like chatbots and emotion analysis tools have adopted EAI to some extent.",
+    leftDescription: `
+  <span class="text-highlight"><h3>Current Status:</h3></span>
+  EAI is used to analyze emotions through voice and facial expressions, applied in basic psychological support and commercial products like chatbots. While effective for emotion recognition, EAI lacks precision for diagnosing mental health conditions and primarily focuses on static, one-time analyses.
+  <span class="text-highlight"><h3>Future Development:</h3></span>
+  <span class="sub-highlight">- Accurate Diagnosis:</span><br> EAI will assist psychologists by analyzing diverse emotional data to diagnose complex mental health issues, such as depression, anxiety, or PTSD.<br>
+  <span class="sub-highlight">- Dynamic Emotional Tracking</span> <br> Future EAI systems will ena
