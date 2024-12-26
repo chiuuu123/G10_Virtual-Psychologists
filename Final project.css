@@ -1,7 +1,7 @@
 body {
   font-family: Palatino, Times New Roman, Arial, sans-serif;
   line-height: 1.6;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   background: linear-gradient(to bottom, #005AB5 50%, #FCFCFC 50%);
 }
