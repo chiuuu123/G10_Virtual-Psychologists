@@ -343,8 +343,57 @@ h2 {
 }
 
 @media (max-width: 992px) {
+  .header-text {
+    width: 65%;
+  }
+
   .top-right-icon {
     width: 30%;
+    margin-left: 5%;
+  }
+
+  .cycle-cards {
+    padding:0px 5% 70px;
+  }
+
+  .card {
+    height: 350px; 
+  }
+
+  .content1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content1 .img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .example {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c-text1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c-text2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wysa1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img {
+    display: flex;
+    flex-direction: column;
   }
 }
 
