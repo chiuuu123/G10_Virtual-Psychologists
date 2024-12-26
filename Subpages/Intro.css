@@ -349,8 +349,119 @@ h2 {
 }
 
 @media (max-width: 600px) {
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+  }
+
+  .header-text {
+    width: auto;
+    padding: 0 10%;
+  }
+
   .top-right-icon {
-    width: 30%;
-    margin-left: 5%;
+    margin: 0 auto;
+  }
+
+  .cycle-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content1 .img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .c-text1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c-text2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c-text2 .text {
+    margin: 0;
+    padding: 5% 0;
+  }
+  
+  .example {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .ginger-img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .wysa-img1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .wysa1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wysa-img2 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .wysa2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c4-text1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c4-text2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c4-image2 {
+    margin: 5% 0;
+  }
+
+  .img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .c4-img {
+    width: 100%;
+    height: auto;
+    margin: 30px;
   }
 }
