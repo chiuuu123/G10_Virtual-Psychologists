@@ -277,7 +277,7 @@ h2 {
   flex-direction: row;
   align-items: center;
   padding: 50px 90px;
-  background-color: #FAFAFA; 
+  background-color: white; 
 }
 
 .c4-text2 {
@@ -285,7 +285,7 @@ h2 {
   flex-direction: row;
   align-items: center;
   padding: 50px 90px;
-  background-color: white; 
+  background-color: #FAFAFA; 
 }
 
 .c4-text3 {
@@ -294,7 +294,7 @@ h2 {
   justify-content: center;
   align-items: center;
   padding: 50px 90px;
-  background-color: #FAFAFA; 
+  background-color: white;
 }
 
 .img {
