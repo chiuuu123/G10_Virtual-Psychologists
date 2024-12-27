@@ -3,6 +3,7 @@ body {
   line-height: 1.6;
   margin: 0 auto;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .header {
@@ -343,6 +344,10 @@ h2 {
 }
 
 @media (max-width: 992px) {
+  body {
+    width: 100vw;
+  }
+
   .header-text {
     width: 65%;
   }
@@ -394,13 +399,17 @@ h2 {
   .img {
     display: flex;
     flex-direction: column;
+    width: 80%;
+  }
+
+  .c4-img {
+    height: 250px;
   }
 }
 
 @media (max-width: 600px) {
   body {
     width: 100vw;
-    overflow-x: hidden;
   }
 
   .header {
